@@ -37,6 +37,7 @@ export default function Home() {
       <InfoModal visible={isOpen} onClose={closeModal} />
       <Navbar />
       <Billboard />
+
       <div className="pb-48">
         <MovieList data={movies} title={"Trending Now"} />
         <MovieList data={favorites} title={"My List"} />
