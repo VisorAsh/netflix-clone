@@ -19,7 +19,7 @@ const Watch = () => {
                 />
                 <p className="text-white text-xl md:text-3xl font-bold">
                     <span className="font-light">
-                        Watching:
+                        Watching :{" "}
                     </span>
                     {data?.title}
                 </p>

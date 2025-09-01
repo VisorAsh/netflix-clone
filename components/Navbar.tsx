@@ -11,14 +11,14 @@ const TOP_OFFSET = 66
 const Navbar = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false)
     const [showAccountMenu, setShowAccountMenu] = useState(false)
-    const [showBackground, setShowBackgroung] = useState(false)
+    const [showBackground, setShowBackground] = useState(false)
 
     useEffect(() => {
         const handleScroll =() => {
             if (window.scrollY >= TOP_OFFSET) {
-                setShowBackgroung(true)
+                setShowBackground(true)
             } else {
-                setShowBackgroung(false)
+                setShowBackground(false)
             }
         }
 
